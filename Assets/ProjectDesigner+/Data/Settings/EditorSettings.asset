@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb63bec8eb5401c4a8a57e58d45bdd16, type: 3}
+  m_Name: EditorSettings
+  m_EditorClassIdentifier: 
+  windowPosition: {x: 0, y: 0}
+  windowSize: {x: 1920, y: 1019}
+  offset: {x: -1045.212, y: -1248.6196}
+  optionsPanelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  graphPanelColor: {r: 0, g: 0, b: 0, a: 1}
+  gridLineColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 255}
+  showGrid: 1
+  optionsPanelEnabled: 1
+  gridSpacing: 50
+  xGraphPanelSize: 5000
+  yGraphPanelSize: 5000
+  optionsPanelOffset: 347
+  zoomValue: 0.5676
+  overrideFile: 0
+  saveOnlyNodes: 0
+  contentSavePath: Assets/ProjectDesigner+/Data/Content
+  contentName: All
+  arrowTexture: {fileID: 2800000, guid: 49a1ca171b6118e4094468a0e8705b33, type: 3}
+  screenshotSavePath: Assets/ProjectDesigner+/Data/Content/Screenshots
+  screenshotName: Screenshot
+  screenshotSensitivity: 0.5
+  nodeWidth: 250
+  nodeClassTexture: {fileID: 2800000, guid: 0ee233f53ad613e4dab950385107c1e3, type: 3}
+  deleteTexture: {fileID: 2800000, guid: 87f929ead2dd0c0439559eecd2a9e6cd, type: 3}
+  settingsTexture: {fileID: 2800000, guid: fe527749d1e3faf408d7292cf09d75a6, type: 3}
+  cardBgColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.4}
+  useStraightConnections: 1
+  associationColor: {r: 1, g: 0.9130655, b: 0.051886797, a: 1}
+  inheritanceColor: {r: 1, g: 1, b: 1, a: 1}
+  connectionHoverColor: {r: 0, g: 0, b: 1, a: 1}
+  connectionPointRadius: 10
+  connectionStartThreshold: 30
+  nodeConnectionTexture: {fileID: 2800000, guid: 1d029402cd6a2134fa84ce876756280a,
+    type: 3}
+  nodeInputConnectionTexture: {fileID: 2800000, guid: 94b8b22d5f8b4294e81aaf0e94b8beb9,
+    type: 3}
+  nodeOutputConnectionTexture: {fileID: 2800000, guid: 94b8b22d5f8b4294e81aaf0e94b8beb9,
+    type: 3}
+  makeSerialiazable: 1
+  scriptSavePath: Assets/Scripts
+  presetColors:
+  - name: Gray
+    offId: 0
+    onId: 1
+  - name: Blue
+    offId: 2
+    onId: 3
+  - name: Sea Green
+    offId: 4
+    onId: 5
+  - name: Green
+    offId: 6
+    onId: 7
+  - name: Yellow
+    offId: 8
+    onId: 9
+  - name: Orange
+    offId: 10
+    onId: 11
+  - name: Red
+    offId: 12
+    onId: 13
+  birchgamesTexture: {fileID: 2800000, guid: 30c071536cda3bd4aa4bc41c1b762a83, type: 3}
+  styleContainer: {fileID: 11400000, guid: 156f608f85a1cb74e897448aa7b5a03c, type: 2}
