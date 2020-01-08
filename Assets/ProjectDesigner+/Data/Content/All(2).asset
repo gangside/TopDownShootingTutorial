@@ -1,0 +1,945 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8981cb433f02448bd058a9f81e3e84, type: 3}
+  m_Name: All(2)
+  m_EditorClassIdentifier: 
+  activeNodes:
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 2358.5923
+      y: 3014.5957
+      width: 250
+      height: 227.99994
+    name: Player
+    parentNodeID: 6
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: moveSpeed
+      protectionLevel: 0
+      fieldType: 1
+      isCustom: 0
+      customName: 
+    - name: viewCamera
+      protectionLevel: 0
+      fieldType: 7
+      isCustom: 0
+      customName: 
+    - name: controller
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    - name: gunController
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Start
+      protectionLevel: 1
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: Update
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 2
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 2696.256
+      y: 3134.7896
+      width: 250
+      height: 208.00006
+    name: GunController
+    parentNodeID: -1
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: weaponHold
+      protectionLevel: 0
+      fieldType: 8
+      isCustom: 0
+      customName: 
+    - name: startingGun
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    - name: equippedGun
+      protectionLevel: 2
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Start
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: EquipGun
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 4
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 2694.8684
+      y: 2910.671
+      width: 250
+      height: 187.99994
+    name: PlayerController
+    parentNodeID: -1
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: velocity
+      protectionLevel: 2
+      fieldType: 10
+      isCustom: 0
+      customName: 
+    - name: myRigidbody
+      protectionLevel: 2
+      fieldType: 7
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Move
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: lookAt
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 4
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 3149.316
+      y: 3126.6167
+      width: 250
+      height: 207.99994
+    name: Gun
+    parentNodeID: -1
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: muzzle
+      protectionLevel: 0
+      fieldType: 8
+      isCustom: 0
+      customName: 
+    - name: projectile
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    - name: msBetweenShots
+      protectionLevel: 0
+      fieldType: 2
+      isCustom: 0
+      customName: 
+    - name: muzzleVelocity
+      protectionLevel: 0
+      fieldType: 2
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Shoot
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 1
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 1439.9202
+      y: 3214.5266
+      width: 250
+      height: 147.99994
+    name: IDamageable
+    parentNodeID: -1
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: Name
+      protectionLevel: 0
+      fieldType: 0
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: TakeHit
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 2
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 3567.4731
+      y: 3129.9102
+      width: 250
+      height: 247.99994
+    name: Projectile
+    parentNodeID: -1
+    editNode: 1
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: speed
+      protectionLevel: 2
+      fieldType: 2
+      isCustom: 0
+      customName: 
+    - name: collisionMask
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    - name: damage
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    - name: newField
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Update
+      protectionLevel: 2
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: CheckCollision
+      protectionLevel: 2
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: OnHitObject
+      protectionLevel: 0
+      fieldType: 6
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 1
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 1807.9453
+      y: 3172.9478
+      width: 250
+      height: 227.99994
+    name: LivingEntity
+    parentNodeID: 4
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: startingHealth
+      protectionLevel: 0
+      fieldType: 2
+      isCustom: 0
+      customName: 
+    - name: health
+      protectionLevel: 0
+      fieldType: 2
+      isCustom: 0
+      customName: 
+    - name: isDead
+      protectionLevel: 0
+      fieldType: 3
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Start
+      protectionLevel: 1
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: TakeHit
+      protectionLevel: 0
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: Die
+      protectionLevel: 1
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 2
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 2332.7197
+      y: 3563.7795
+      width: 250
+      height: 187.99994
+    name: Enemy
+    parentNodeID: 6
+    editNode: 0
+    editText: 0
+    output:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    input:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      name: IO_Point
+    parentGroup:
+      ID: 0
+      selected: 0
+      hover: 0
+      baseColor: {r: 0, g: 0, b: 0, a: 0}
+      outlineColor: {r: 0, g: 0, b: 0, a: 0}
+      position:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      header: 
+      editHeader: 0
+      groupComment: 
+      groupDescription: 
+      showComment: 0
+      childIDs: 
+    nodeFields:
+    - name: pathfinder
+      protectionLevel: 0
+      fieldType: 7
+      isCustom: 0
+      customName: 
+    - name: target
+      protectionLevel: 0
+      fieldType: 8
+      isCustom: 0
+      customName: 
+    nodeMethods:
+    - name: Start
+      protectionLevel: 1
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    - name: UpdatePath
+      protectionLevel: 2
+      fieldType: 12
+      isCustom: 0
+      customName: 
+    associatedNodeIDs: 
+    nodeColorID: 2
+  activeGroups:
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 2268.5923
+      y: 2815.671
+      width: 737.6638
+      height: 607.11865
+    header: PlayerScripts
+    editHeader: 0
+    groupComment: Group Comment section. Bla bla bla bla bal etc
+    groupDescription: Group Description. Bla bla bla bla bal etc
+    showComment: 0
+    childIDs: 000000000100000002000000010000000200000005000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000000000000100000002000000
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 3059.316
+      y: 3031.6167
+      width: 818.1572
+      height: 426.29346
+    header: GunScripts
+    editHeader: 0
+    groupComment: Group Comment section. Bla bla bla bla bal etc
+    groupDescription: Group Description. Bla bla bla bla bal etc
+    showComment: 0
+    childIDs: 0300000004000000030000000400000003000000040000000300000004000000030000000400000003000000040000000300000004000000030000000400000003000000040000000300000004000000030000000400000003000000070000000300000007000000030000000700000003000000070000000300000007000000030000000700000003000000070000000300000007000000030000000700000003000000070000000300000007000000030000000700000003000000070000000300000007000000030000000700000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000030000000500000003000000050000000300000005000000
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 1349.9202
+      y: 3077.9478
+      width: 768.02515
+      height: 403
+    header: DamageSystemScripts
+    editHeader: 1
+    groupComment: Group Comment section. Bla bla bla bla bal etc
+    groupDescription: Group Description. Bla bla bla bla bal etc
+    showComment: 0
+    childIDs: 0600000007000000060000000700000006000000070000000400000006000000040000000600000004000000060000000400000006000000
+  activeConnections:
+  - ID: 0
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 0
+    fromNodeID: 0
+    toNodeID: 2
+    lineArray:
+    - {x: 2620.5923, y: 3140.5957, z: 0}
+    - {x: 2650.5923, y: 3140.5957, z: 0}
+    - {x: 2652.8684, y: 3016.671, z: 0}
+    - {x: 2682.8684, y: 3016.671, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 2622.2268
+      y: 3016.671
+      width: 60.6416
+      height: 123.924805
+  - ID: 1
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 0
+    fromNodeID: 0
+    toNodeID: 1
+    lineArray:
+    - {x: 2620.5923, y: 3140.5957, z: 0}
+    - {x: 2650.5923, y: 3140.5957, z: 0}
+    - {x: 2654.256, y: 3250.7896, z: 0}
+    - {x: 2684.256, y: 3250.7896, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 2622.2268
+      y: 3140.5957
+      width: 62.029297
+      height: 110.19385
+  - ID: 2
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 0
+    fromNodeID: 1
+    toNodeID: 3
+    lineArray:
+    - {x: 2958.256, y: 3250.7896, z: 0}
+    - {x: 2988.256, y: 3250.7896, z: 0}
+    - {x: 3107.316, y: 3242.6167, z: 0}
+    - {x: 3137.316, y: 3242.6167, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 2958.256
+      y: 3242.6167
+      width: 181.25317
+      height: 8.172852
+  - ID: 3
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 0
+    fromNodeID: 3
+    toNodeID: 5
+    lineArray:
+    - {x: 3411.316, y: 3242.6167, z: 0}
+    - {x: 3441.316, y: 3242.6167, z: 0}
+    - {x: 3525.4731, y: 3265.9102, z: 0}
+    - {x: 3555.4731, y: 3265.9102, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 3411.316
+      y: 3242.6167
+      width: 144.15723
+      height: 23.293457
+  - ID: 4
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 1
+    fromNodeID: 4
+    toNodeID: 6
+    lineArray:
+    - {x: 1701.9202, y: 3300.5266, z: 0}
+    - {x: 1731.9202, y: 3300.5266, z: 0}
+    - {x: 1765.9453, y: 3298.9478, z: 0}
+    - {x: 1795.9453, y: 3298.9478, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 1701.9202
+      y: 3298.9478
+      width: 94.02515
+      height: 2.9453125
+  - ID: 5
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 1
+    fromNodeID: 6
+    toNodeID: 0
+    lineArray:
+    - {x: 2069.9453, y: 3298.9478, z: 0}
+    - {x: 2099.9453, y: 3298.9478, z: 0}
+    - {x: 2316.5923, y: 3140.5957, z: 0}
+    - {x: 2346.5923, y: 3140.5957, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 2074.045
+      y: 3140.5957
+      width: 272.54736
+      height: 156.9856
+  - ID: 6
+    selected: 0
+    hover: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 0}
+    outlineColor: {r: 0, g: 0, b: 0, a: 0}
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    type: 1
+    fromNodeID: 6
+    toNodeID: 7
+    lineArray:
+    - {x: 2069.9453, y: 3298.9478, z: 0}
+    - {x: 2099.9453, y: 3298.9478, z: 0}
+    - {x: 2290.7197, y: 3669.7795, z: 0}
+    - {x: 2320.7197, y: 3669.7795, z: 0}
+    controlRect:
+      serializedVersion: 2
+      x: 2069.9453
+      y: 3298.9478
+      width: 252.96777
+      height: 369.7351
+  targetConnectionID: -1
+  targetNodeID: 7
+  selectedPointID: -1
