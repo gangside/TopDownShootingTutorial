@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258c44b0272a84b43bff7fa3640929a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  startingHealth: 10
   moveSpeed: 5
 --- !u!114 &252924496
 MonoBehaviour:
@@ -735,6 +735,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1413023033254314502, guid: fcaf48dc719b57c40841c37a27adf410,
+        type: 3}
+      propertyPath: startingHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1413023033254314503, guid: fcaf48dc719b57c40841c37a27adf410,
         type: 3}
       propertyPath: m_Name

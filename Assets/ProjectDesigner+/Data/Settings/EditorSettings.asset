@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb63bec8eb5401c4a8a57e58d45bdd16, type: 3}
   m_Name: EditorSettings
   m_EditorClassIdentifier: 
-  windowPosition: {x: 0, y: 0}
-  windowSize: {x: 1920, y: 1019}
-  offset: {x: -897.57336, y: -2379.8865}
+  windowPosition: {x: 277, y: 62}
+  windowSize: {x: 1439, y: 1019}
+  offset: {x: -470.8529, y: -899.99927}
   optionsPanelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   graphPanelColor: {r: 0, g: 0, b: 0, a: 1}
   gridLineColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 255}
-  showGrid: 1
+  showGrid: 0
   optionsPanelEnabled: 1
   gridSpacing: 50
   xGraphPanelSize: 5000
   yGraphPanelSize: 5000
-  optionsPanelOffset: 434.5
-  zoomValue: 0.7918
+  optionsPanelOffset: 377.5
+  zoomValue: 0.38379985
   overrideFile: 0
   saveOnlyNodes: 0
   contentSavePath: Assets/ProjectDesigner+/Data/Content
