@@ -7,10 +7,15 @@ using UnityEditor;
 public class MapEditor : Editor
 {
     public override void OnInspectorGUI() {
-        base.OnInspectorGUI();
-
+        //상시 인스펙터의 변경사항을 게임에 반영
+        //base.OnInspectorGUI();
         MapGenerator map = target as MapGenerator;
+        if (DrawDefaultInspector()) {
+            map.GenerateMap();
+        }
 
-        map.GenerateMap();
+        if (GUILayout.Button("Generate Map")) {
+            map.GenerateMap();
+        }
     }
 }
