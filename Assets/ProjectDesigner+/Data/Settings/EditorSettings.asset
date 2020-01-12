@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowPosition: {x: 308, y: 18}
   windowSize: {x: 1439, y: 1019}
-  offset: {x: -1027.3182, y: -3337.4153}
+  offset: {x: -500.4256, y: -1242.5}
   optionsPanelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   graphPanelColor: {r: 0, g: 0, b: 0, a: 1}
   gridLineColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 255}
@@ -24,7 +24,7 @@ MonoBehaviour:
   xGraphPanelSize: 5000
   yGraphPanelSize: 5000
   optionsPanelOffset: 377.5
-  zoomValue: 0.8723
+  zoomValue: 0.4523
   overrideFile: 0
   saveOnlyNodes: 0
   contentSavePath: Assets/ProjectDesigner+/Data/Content
