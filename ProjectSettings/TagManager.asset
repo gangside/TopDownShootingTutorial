@@ -14,9 +14,9 @@ TagManager:
   - 
   - 
   - Damageable
-  - 
-  - 
-  - 
+  - Floor
+  - Obstacle
+  - Shell
   - 
   - 
   - 
