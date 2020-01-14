@@ -8,6 +8,8 @@ public class Player : LivingEntity
 {
     public float moveSpeed = 5;
 
+    public CrossHair crosshair;
+
     Camera viewCamera;
     PlayerController controller;
     GunController gunController;
@@ -30,7 +32,7 @@ public class Player : LivingEntity
 
         //바라보는 방향을 입력받는 곳
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
-        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
+        Plane groundPlane = new Plane(Vector3.up, Vector3.up * gunController.GunHeight);
         float rayDistance;
 
         if(groundPlane.Raycast(ray, out rayDistance))
@@ -38,12 +40,26 @@ public class Player : LivingEntity
             Vector3 point = ray.GetPoint(rayDistance);
             //Debug.DrawLine(ray.origin, point, Color.red);
             controller.LookAt(point);
+            crosshair.transform.position = point;
+            crosshair.DetectTarget(ray);
+
+            if ((new Vector3(point.x, point.y, point.z) - new Vector3(transform.position.x, transform.position.y, transform.position.z)).sqrMagnitude > 2f){
+                gunController.Aim(point);
+            }
         }
 
         //무기 발사를 입력받는 곳
         if (Input.GetMouseButton(0))
         {
-            gunController.Shoot();
+            gunController.OnTriggerHold();
+        }
+
+        if (Input.GetMouseButtonUp(0)) {
+            gunController.OnTriggerRelease();
+        }
+
+        if (Input.GetKeyDown(KeyCode.R)){
+            gunController.Reload();
         }
 
     }

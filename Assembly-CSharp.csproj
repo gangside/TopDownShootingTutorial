@@ -81,6 +81,7 @@
     <Compile Include="Assets\ProjectDesigner+\Scripts\UndoRedo.cs" />
     <Compile Include="Assets\ProjectDesigner+\Scripts\Utility\DrawingUtilities.cs" />
     <Compile Include="Assets\ProjectDesigner+\Scripts\Utility\UmlUtilities.cs" />
+    <Compile Include="Assets\Scripts\CrossHair.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameUI.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
@@ -116,14 +117,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
