@@ -24,6 +24,9 @@ public FireMode fireMode;
     [Header("Effect")]
     public Transform shell;
     public Transform shellInjection;
+    public AudioClip shootAudio;
+    public AudioClip reloadAudio;
+
     MuzzleFlash muzzleFlash;
     float nextShotTime;
 
@@ -86,12 +89,15 @@ public FireMode fireMode;
             transform.localPosition -= Vector3.forward * Random.Range(kickMinMax.x, kickMinMax.y);
             recoilAngle += Random.Range(recoilAngleMinMax.x, recoilAngleMinMax.y);
             recoilAngle = Mathf.Clamp(recoilAngle, 0, 40);
+
+            AudioManager.instance.PlaySound(shootAudio, transform.position);
         }
     }
 
     public void Reload() {
         if(!isReloading && projectilesRemainingInMag != projectiesPerMag) {
             StartCoroutine(AnimateReload());
+            AudioManager.instance.PlaySound(reloadAudio, transform.position);
         }
     }
 

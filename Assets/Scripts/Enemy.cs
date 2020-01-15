@@ -65,9 +65,10 @@ public class Enemy : LivingEntity
 
         startingHealth = enemyHealth;
 
-        skinMaterial = GetComponent<Renderer>().material;
+        skinMaterial = GetComponent<Renderer>().sharedMaterial;
         skinMaterial.color = skinColor;
         originalColor = skinMaterial.color;
+        //deathEffect.main.startColor.color = originalColor;
     }
 
     public override void TakeHit(float damage, Vector3 hitPosition, Vector3 hitDirection) {
