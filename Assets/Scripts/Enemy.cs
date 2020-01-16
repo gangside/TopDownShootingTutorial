@@ -11,6 +11,7 @@ public class Enemy : LivingEntity
     public State currentState;
 
     public ParticleSystem deathEffect;
+    public static event System.Action OnDeathStatic;
 
     NavMeshAgent pathfinder;
     Transform target;
@@ -65,14 +66,20 @@ public class Enemy : LivingEntity
 
         startingHealth = enemyHealth;
 
-        skinMaterial = GetComponent<Renderer>().sharedMaterial;
+        deathEffect.startColor = new Color(skinColor.r, skinColor.g, skinColor.b, 1);
+        skinMaterial = GetComponent<Renderer>().material;
         skinMaterial.color = skinColor;
         originalColor = skinMaterial.color;
         //deathEffect.main.startColor.color = originalColor;
     }
 
     public override void TakeHit(float damage, Vector3 hitPosition, Vector3 hitDirection) {
+        AudioManager.instance.PlaySound("Impact", transform.position);
         if(damage >= health) {
+            if (OnDeathStatic != null) {
+                OnDeathStatic();
+            }
+            AudioManager.instance.PlaySound("Enemy Death", transform.position);
             Destroy(Instantiate(deathEffect.gameObject, hitPosition, Quaternion.FromToRotation(Vector3.forward, hitDirection)), deathEffect.main.startLifetime.constant);
         }
 
@@ -95,6 +102,7 @@ public class Enemy : LivingEntity
                 {
                     nextAttackTime = Time.time + timeBetweenAttack;
                     StartCoroutine(Attack());
+                    AudioManager.instance.PlaySound("Enemy Attack", transform.position);
                 }
             }
         }

@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\MapEditor.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Editor\NodeEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/UnityProjectHojun/TopDownShootingTutorial/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

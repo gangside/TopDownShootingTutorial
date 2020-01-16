@@ -63,24 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Connection.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Data\ContentData.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Data\NodeColor.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Data\SettingsData.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Data\StyleContainer.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Data\TexturePack.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Extensions\GUIExtensions.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Extensions\ListExtensions.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Extensions\RectExtensions.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Objects\Group.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Objects\IO_Point.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Objects\Node.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Objects\Selectable.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\ScriptGeneration\DataTypes.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\ScriptGeneration\GenerateScript.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\UndoRedo.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Utility\DrawingUtilities.cs" />
-    <Compile Include="Assets\ProjectDesigner+\Scripts\Utility\UmlUtilities.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\CrossHair.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -90,12 +72,15 @@
     <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\LivingEntity.cs" />
     <Compile Include="Assets\Scripts\MapGenerator.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\MuzzleFlash.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\ScoreKeeper.cs" />
     <Compile Include="Assets\Scripts\Shell.cs" />
+    <Compile Include="Assets\Scripts\SoundLibrary.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Utility.cs" />
     <Reference Include="Unity.Timeline.Editor">
